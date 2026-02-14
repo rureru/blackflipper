@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "705573486453",
+    "project_id": "blackflipper-ecb71",
+    "storage_bucket": "blackflipper-ecb71.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705573486453:android:07f3a09f4087b32aab9d3c",
+        "android_client_info": {
+          "package_name": "com.circliks.blackflipper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705573486453-9vjbdj5jlksu0ejgj0bs13d920p29fgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.circliks.blackflipper",
+            "certificate_hash": "0b03c3a5ba59b47c6c806117d0fbe3623d06b626"
+          }
+        },
+        {
+          "client_id": "705573486453-efr55em3par03j5ptac39t7ih7oah1st.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDZbE3Xj0JgAHAEBPqLepcEpBfEfMWHug"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705573486453-efr55em3par03j5ptac39t7ih7oah1st.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "705573486453-4uqfurei5d9omhq32h20kb2k7jjnqfen.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.circliks.blackflipper"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

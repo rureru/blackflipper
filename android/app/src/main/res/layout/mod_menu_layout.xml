@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="1000dp"
+    android:layout_height="1000dp"
+    android:background="#FF212121"
+    android:padding="16dp"
+    android:alpha="0.9">
+
+    <TextView
+        android:id="@+id/mod_menu_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overlay Items"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Scrollable Market Cards Section -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mod_menu_title"
+        android:layout_above="@+id/btn_close_menu"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:id="@+id/card_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Placeholder Card 1 -->
+            <include layout="@layout/card_item_layout" />
+
+            <!-- Placeholder Card 2 -->
+            <include layout="@layout/card_item_layout" />
+
+            <!-- Placeholder Card 3 -->
+            <include layout="@layout/card_item_layout" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_close_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Close"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#AAAAAA"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
