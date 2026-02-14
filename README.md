@@ -20,16 +20,16 @@ User-Friendly UI: A modern, fast, and responsive experience built with Flutter.
 Follow these steps to run the project locally:
 
 Clone the repository:
-'git clone https://github.com/rureru/blackflipper.git'
+`git clone https://github.com/rureru/blackflipper.git`
 
 Navigate to the project directory:
-'cd blackflipper'
+`cd blackflipper`
 
 Install dependencies:
-'flutter pub get'
+`flutter pub get`
 
 Run the application:
-'flutter run'
+`flutter run`
 
 ### **🛠️ Built With**
 Framework: Flutter
@@ -54,3 +54,4 @@ Networking: http package.
 + Open a Pull Request.
 
 #### Contact: *abdurahmanfdn21@gmail.com*
+
