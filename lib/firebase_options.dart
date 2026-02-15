@@ -41,48 +41,48 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyB3pcfeXc-JVV_y0LyY-iFG1IYaSK0CKH4',
-    appId: '1:705573486453:web:bd0551209a1ac733ab9d3c',
-    messagingSenderId: '705573486453',
-    projectId: 'blackflipper-ecb71',
-    authDomain: 'blackflipper-ecb71.firebaseapp.com',
-    storageBucket: 'blackflipper-ecb71.firebasestorage.app',
-    measurementId: 'G-9V8BYS9EY8',
+    apiKey: 'Your api key',
+    appId: 'your app id',
+    messagingSenderId: 'your sender id',
+    projectId: 'your firebase project id',
+    authDomain: 'your-domain.firebaseapp.co',
+    storageBucket: 'your-bucket.firebasestorage.app',
+    measurementId: 'Measurement ıd',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBDZbE3Xj0JgAHAEBPqLepcEpBfEfMWHug',
-    appId: '1:705573486453:android:07f3a09f4087b32aab9d3c',
-    messagingSenderId: '705573486453',
-    projectId: 'blackflipper-ecb71',
-    storageBucket: 'blackflipper-ecb71.firebasestorage.app',
+    apiKey: 'Your api key',
+    appId: 'your app id',
+    messagingSenderId: 'your sender id',
+    projectId: 'Your Fireabse project id',
+    storageBucket: 'your-bucket.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBfMCKJiU9wnbkFsp1LtrsCAVKRYxY5Vbc',
-    appId: '1:705573486453:ios:796b61789a9df5f1ab9d3c',
-    messagingSenderId: '705573486453',
-    projectId: 'blackflipper-ecb71',
-    storageBucket: 'blackflipper-ecb71.firebasestorage.app',
+    apiKey: 'Your api key',
+    appId: 'your app id',
+    messagingSenderId: 'your sender id',
+    projectId: 'Your Firebase Project id',
+    storageBucket: 'your-bucket.firebasestorage.app',
     iosBundleId: 'com.circliks.blackflipper',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBfMCKJiU9wnbkFsp1LtrsCAVKRYxY5Vbc',
-    appId: '1:705573486453:ios:796b61789a9df5f1ab9d3c',
-    messagingSenderId: '705573486453',
-    projectId: 'blackflipper-ecb71',
-    storageBucket: 'blackflipper-ecb71.firebasestorage.app',
+    apiKey: 'Your api key',
+    appId: 'your app id',
+    messagingSenderId: 'your sender id',
+    projectId: 'Your Firebase Project id',
+    storageBucket: 'your-bucket.firebasestorage.app',
     iosBundleId: 'com.circliks.blackflipper',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyB3pcfeXc-JVV_y0LyY-iFG1IYaSK0CKH4',
-    appId: '1:705573486453:web:35ded5416445c96fab9d3c',
-    messagingSenderId: '705573486453',
-    projectId: 'blackflipper-ecb71',
-    authDomain: 'blackflipper-ecb71.firebaseapp.com',
-    storageBucket: 'blackflipper-ecb71.firebasestorage.app',
-    measurementId: 'G-X4KL0YQVFZ',
+    apiKey: 'your api key',
+    appId: 'your app id',
+    messagingSenderId: 'your sender id',
+    projectId: 'Your Firebase Project id',
+    authDomain: 'your-domain.firebaseapp.com',
+    storageBucket: 'your-bucket.firebasestorage.app',
+    measurementId: 'Measurement id',
   );
 }
